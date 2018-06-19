@@ -14,7 +14,7 @@ using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 namespace IotDataGenerator.Core
 {
-    class App
+    public class App
     {
         private readonly IConfiguration configuration;
         private readonly ILogger logger;
