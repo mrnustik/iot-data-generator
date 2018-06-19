@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Devices;
 using Microsoft.Azure.Devices.Client;
-using TransportType = Microsoft.Azure.Devices.TransportType;
+using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 namespace IotDataGenerator.Core.Devices
 {
