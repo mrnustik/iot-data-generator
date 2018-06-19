@@ -37,6 +37,7 @@ namespace IotDataGenerator.Core.Senders
                 var data = GenerateData();
                 var encodedData = EncodeData(data);
                 await SendData(encodedData);
+                await Task.Delay(delay);
             }
         }
 
