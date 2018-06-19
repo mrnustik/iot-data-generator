@@ -43,10 +43,11 @@ namespace IotDataGenerator.Core
                 new DoubleVariable("Temperature", new DoubleGenerator(20.0, 40.0))
             };
 
-            var device = await deviceManager.CreateDevice("Home sensor");
+            var device = await deviceManager.GetOrCreateDevice("HomeSensor");
             var deviceClient = deviceClientFactory.CreateDeviceClient(device, TransportType.Http1);
 
             var sender = new VariableDataSender(logger, variables, deviceClient, 200);
+            sender.StartSending();
         }
     }
 }
