@@ -22,15 +22,15 @@ namespace IotDataGenerator.Core.Devices
             return registryManager.GetDeviceAsync(name);
         }
 
-        public Task<Device> GetOrCreateDevice(string name)
+        public async Task<Device> GetOrCreateDevice(string name)
         {
             try
             {
-                return CreateDevice(name);
+                return await CreateDevice(name);
             }
             catch (Exception)
             {
-                return GetDevice(name);
+                return await GetDevice(name);
             }
         }
     }
