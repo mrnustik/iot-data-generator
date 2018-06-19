@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotDataGenerator.Core", "IotDataGenerator.Core\IotDataGenerator.Core.csproj", "{3DC34A2C-ECF8-45DA-B553-375BD710C2E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotDataGenerator.Cli", "IotDataGenerator.Cli\IotDataGenerator.Cli.csproj", "{6087A188-E0A6-49C4-8248-41DC28511807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3DC34A2C-ECF8-45DA-B553-375BD710C2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC34A2C-ECF8-45DA-B553-375BD710C2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC34A2C-ECF8-45DA-B553-375BD710C2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6087A188-E0A6-49C4-8248-41DC28511807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6087A188-E0A6-49C4-8248-41DC28511807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6087A188-E0A6-49C4-8248-41DC28511807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6087A188-E0A6-49C4-8248-41DC28511807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

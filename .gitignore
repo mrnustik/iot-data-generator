@@ -9,3 +9,5 @@
 /src/.vs
 /src/IotDataGenerator.Core/obj
 /src/IotDataGenerator.Core/bin
+/src/IotDataGenerator.Cli/obj
+/src/IotDataGenerator.Cli/bin
