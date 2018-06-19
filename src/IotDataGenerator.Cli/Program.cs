@@ -15,6 +15,7 @@ namespace IotDataGenerator.Cli
                 .AddJsonFile("appsettings.json");
             var app = new App(configurationBuilder.Build(), logger);
             app.Run().GetAwaiter().GetResult();
+            Console.ReadKey();
         }
     }
 }
