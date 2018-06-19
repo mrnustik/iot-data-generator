@@ -49,11 +49,13 @@ namespace IotDataGenerator.Core.Senders
         {
             var message = new Message(encodedData);
             await client.SendEventAsync(message);
+            logger.LogInformation("Data sent");
         }
 
         private byte[] EncodeData(object data)
-        {
+        { 
             var serializedObject = JsonConvert.SerializeObject(data);
+            logger.LogInformation($"Sending data: {serializedObject}");
             return Encoding.ASCII.GetBytes(serializedObject);
         }
 
@@ -64,6 +66,7 @@ namespace IotDataGenerator.Core.Senders
             {
                 var key = variable.Name;
                 var value = variable.Generator.NextValue();
+                logger.LogInformation($"Generated value {value} of variable {key}.");
                 data.Add(key, value);
             }
 
