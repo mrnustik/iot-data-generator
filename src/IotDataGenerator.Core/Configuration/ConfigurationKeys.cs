@@ -7,5 +7,6 @@ namespace IotDataGenerator.Core.Configuration
     class ConfigurationKeys
     {
         public const string IotHubUri = "iotHubUri";
+        public const string IotHubConnectionString = "connectionString";
     }
 }
