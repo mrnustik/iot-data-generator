@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/IotDataGenerator/v15/Server/sqlite3/storage.ide-wal
+/src/.vs/IotDataGenerator/v15/Server/sqlite3/storage.ide-shm
+/src/.vs/IotDataGenerator/v15/Server/sqlite3/storage.ide
+/src/.vs/IotDataGenerator/v15/Server/sqlite3/db.lock
+/src/.vs/IotDataGenerator/v15/Server/sqlite3
+/src/IotDataGenerator.Core/obj
