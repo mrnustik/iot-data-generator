@@ -5,7 +5,7 @@ using Microsoft.Azure.Devices;
 
 namespace IotDataGenerator.Core.Devices
 {
-    interface IDeviceManager
+    public interface IDeviceManager
     {
         Task<Device> CreateDevice(string name);
         Task<Device> GetDevice(string name);

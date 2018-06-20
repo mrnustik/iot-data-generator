@@ -6,7 +6,7 @@ using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 namespace IotDataGenerator.Core.Devices
 {
-    class DeviceClientFactory : IDeviceClientFactory
+    public class DeviceClientFactory : IDeviceClientFactory
     {
 
         private readonly IConfiguration configuration;

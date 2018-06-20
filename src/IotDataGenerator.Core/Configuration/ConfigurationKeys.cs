@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IotDataGenerator.Core.Configuration
 {
-    class ConfigurationKeys
+    public class ConfigurationKeys
     {
         public const string IotHubUri = "iotHubUri";
         public const string IotHubConnectionString = "connectionString";

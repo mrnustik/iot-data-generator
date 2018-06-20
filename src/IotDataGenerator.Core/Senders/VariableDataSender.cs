@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace IotDataGenerator.Core.Senders
 {
-    class VariableDataSender : IDataSender
+    public class VariableDataSender : IDataSender
     {
         private readonly ILogger logger;
         private readonly IEnumerable<IVariable<double>> variables;

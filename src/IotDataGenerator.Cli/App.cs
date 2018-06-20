@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using IotDataGenerator.Core.Configuration;
 using IotDataGenerator.Core.Devices;
@@ -12,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
-namespace IotDataGenerator.Core
+namespace IotDataGenerator.Cli
 {
     public class App
     {
